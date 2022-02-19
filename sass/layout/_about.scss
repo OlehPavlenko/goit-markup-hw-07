@@ -41,10 +41,11 @@
 .list-slogan__content {
   width: calc((100%-90px) / 4);
   margin-right: 30px;
+  &:nth-child(4n) {
+    margin-right: 0;
+  }
 }
-.list-slogan__content:nth-child(4n) {
-  margin-right: 0;
-}
+
 .about {
   padding-bottom: 0;
 }
